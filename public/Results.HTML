@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<HTML>
+	<head>
+		<meta charset="utf-8">
+		<title>Resultados da Busca</title>
+		<link rel="stylesheet" type="text/css" href="CSS/Estilo_Index.css">
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+		<script src="tipuesearch/tipuesearch_content.js"></script>
+		<link href="tipuesearch/tipuesearch.css" rel="stylesheet">
+		<script src="tipuesearch/tipuesearch_set.js"></script>
+		<script src="tipuesearch/tipuesearch.min.js"></script>
+
+	</head>
+    <body background="./Imagens/HistoricoProfissionalFull.jpg">
+		<div id="header-background">
+			<div id="header">
+				<div>
+					<a href = index.html><img id="ImagemAluno" src="Imagens/Aluno.jpg" width="80" height="80" alt=""></a>
+				</div>
+				<div id="menuheader">
+					<ul>
+						<li><a href="javascript:window.history.go(-1)">Voltar</a></li>
+						<li><a href = ProjetosAcademicos.HTML>Projetos Acadêmicos</a></li>
+						<li><a href = HistoricoProfissional.HTML>Historico Profissional</a></li>
+						<li>
+							<form id = "padding" action="Results.HTML">
+								<input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<h1 id="titulo">Resultados da Busca</h1>
+
+		<form action="Results.HTML">
+			</form>
+			<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; max-width: 650px;"></div>
+
+			<script>
+				$(document).ready(function() {
+				$('#tipue_search_input').tipuesearch();
+				});
+			</script>
+
+		<div><p></p></div>
+		<div id="footer-background">
+			<div id = "footer">
+				<div>
+					<a href = ./ProjetosAcademicos/Website.HTML><img id="footerimg" src="Imagens/ePort.png" alt=""></a>
+				</div>
+				<div id="menufooter">
+					<ul>
+						<li><a href="javascript:window.history.go(-1)">Voltar</a></li>
+						<li><a href = ProjetosAcademicos.HTML>Projetos Acadêmicos</a></li>
+						<li><a href = HistoricoProfissional.HTML>Historico Profissional</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    </body>
+</HTML>

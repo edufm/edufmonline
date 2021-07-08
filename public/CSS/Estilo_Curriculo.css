@@ -1,0 +1,211 @@
+body {
+	background-image: url('../Imagens/board.jpg');
+  	background-repeat: repeat;
+  	background-attachment: fixed;
+  	background-size: 100%;
+}
+
+h1 {
+	text-align: center;
+	padding: 5px 0px 10px 0px;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	font-size: 3em;
+}
+
+p{
+	padding: 5px 0px 10px 0px;
+	font-family: 'Ubuntu', sans-serif;
+	color: black;
+	font-size: 1em;
+	text-align: justify;
+}
+
+h2 {
+	text-align: center;
+	padding: 30px 0px 10px 0px;
+	font-size: 2em;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+}
+
+h3{
+	text-align: center;
+	padding: 5px 0px 10px 0px;
+	font-family: 'Ubuntu', sans-serif;
+	color: black;
+	font-size: 3em;
+}
+
+/*Imagem do Aluno*/
+
+#ImagemAluno {
+	float: left;
+	padding: 10px 0px 0px 0px;
+	border-radius: 50%
+}
+
+/* Menu */
+
+#header-background {
+	margin: 0px auto;
+	height: 100px;
+	background: #0049B1;
+	max-width: 1600px;
+	border-radius: 10%;
+}
+
+#header {
+	float: right;
+	width: 90%;
+	max-width: 1900px;
+	height: 120px;
+	margin: 0px auto;
+}
+
+#menuheader{
+	float: right;
+	width: 70%;
+	height: 70px;
+	margin-right: 5%;
+	overflow: hidden;
+}
+
+#menuheader ul {
+	float: right;
+	margin: 0;
+	padding: 30px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	font-family: 'Signika', sans-serif;
+	font-size: 1.5rem;
+}
+
+#menuheader li {
+	float: left;
+	padding: 0px;
+}
+
+#menuheader a {
+	display: inline-block;
+	margin-right: 0px;
+	padding: 10px 10px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	border: none;
+}
+
+/* Parte do Aluno*/
+
+#imagem_Classe{
+	padding: 20px 0px 10px 0px;
+	border-radius: 30%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#AlignText{
+	text-align: center;
+}
+
+#titulo{
+	color: white;
+}
+
+#coluna-meio{
+	width: 60%;
+	max-width: 800px;
+	margin: 0px auto;
+	background: #EDEDED;
+	border-radius: 4%;
+	font-family: "Oxygen", sans-serif;
+}
+
+#coluna-meio p{
+	line-height: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: -10px;
+}
+
+#coluna-meio hr{
+	width: 90%;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+#name{
+	font-size: 20px;
+}
+
+.texto {
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.textomain {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+}
+
+/* Footer */
+
+#footer-background {
+	margin: 0px auto;
+	height: 100px;
+	background: #0049B1;
+	max-width: 1600px;
+	border-radius: 10%;
+}
+
+#footer {
+	float: right;
+	width: 90%;
+	max-width: 1900px;
+	height: 120px;
+	margin: 0px auto;
+}
+
+#footerimg {
+	float: left;
+	padding: 20px 0px 0px 0px;
+}
+
+#menufooter {
+	float: right;
+	width: 70%;
+	height: 70px;
+	margin-right: 5%;
+	overflow: hidden;
+}
+
+#menufooter ul {
+	float: right;
+	margin: 0;
+	padding: 20px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	font-family: 'Signika', sans-serif;
+	font-size: 1.5rem;
+}
+
+#menufooter li {
+	float: left;
+	padding: 0px;
+}
+
+#menufooter a {
+	display: inline-block;
+	margin-right: 1px;
+	padding: 20px 10px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	border: none;
+}
