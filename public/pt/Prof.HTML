@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<HTML lang="pt">
+	<head>
+		<meta charset="utf-8">
+		<title>Edufm Online</title>
+		<link href="https://fonts.googleapis.com/css?family=Oxygen|Signika|Ubuntu" rel="stylesheet">
+		<link href="./tipuesearch/tipuesearch.css" rel="stylesheet">
+		<link href="../CSS/Estilo_Classes.css" rel="stylesheet" type="text/css">
+		<link href="../CSS/Estilo_Header.css" rel="stylesheet" type="text/css">
+		<link href="../CSS/Estilo_Footer.css" rel="stylesheet" type="text/css">
+	</head>
+	<header id="header-background">
+		<div id="header" class="container">
+			<div>
+				<a href = ./Home.HTML><img id="ImagemAluno" src="../Images/Picture.jpg" width="80" height="80" alt=""></a>
+			</div>
+			<div id="menuheader">
+				<ul>
+                    <li><a href="javascript:window.history.go(-1)">Voltar</a></li>
+					<li><a href = ./Indenp.HTML>Projetos Independentes</a></li>
+					<li><a href = ./Prof.HTML>Experienias Profissionais</a></li>
+					<li>
+						<form id = "padding" action="./Results.HTML">
+							<input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<body background="../Images/background.jpg">
+
+        <h1 id="titulo">Experienias Profissionais</h1>
+
+        <div id="coluna-meio">
+            <p><img id='imagem_Classe' src="../Images/prof.jpg" width="300" height="150" alt=""></p>
+            <p id="AlignText">Experiecias profissionais e especializações</p>
+            <p id="AlignText">Nessa pagina foram selecionados algumas das minhas principais experiencias 
+                profissionais, para representar minhas competencias, responsabilidades, areas de conhecimento
+                 e espeialidades</p>
+            <p></p>
+        </div>
+
+        <h2 id="tituloW">Projetos:</h2>
+
+        <div id="Classes">
+            <div id="coluna1">
+                <h3>Pandhora Investimentos - Quant Researcher</h3>
+                <p></p>
+                <p class = 'imagem'><img src="../Images_prof/Pandhora.png" width="300" height="150" alt="" /></p>
+                <p></p>
+                <p class="texto">Associado na Pandhora Investimentos com foco em modelagem de mercado, alocação de portfolio, monitoramento de risco e desenvolvimento de software</p>
+                <p class="botao-saibamais"><a href="./Prof/Pandhora.HTML"><span>Saiba Mais</span></a></p>
+            </div>
+            <div id="coluna2">
+                <h3>Iniciação Cientifica - High Frquency Data</h3>
+                <p class = 'imagem'><img src="../Images_prof/ICHighFrequency.png" alt="" /></p>
+                <p class="texto">Análise do comportamento de ações e criação de algoritimos de investimento utilizando de dados de alta frequência (tick-by-tick)</p>
+                <p class="botao-saibamais"><a href="./Prof/ICHighFrequency.HTML"><span>Saiba Mais</span></a></p>
+            </div>
+        </div>
+
+        <div id="Classes2">
+            <div id="coluna3">
+                <h3>Metricis - Cloud Computing</h3>
+                <p class = 'imagem'><img src="../Images_prof/CloudComputingMetricis.png" width="300" height="150" alt="" /></p>
+                <p class="texto">Análise de projetos de implementação de Cloud para o governo federal</p>
+                <p class="botao-saibamais"><a href="./Prof/CloudComputingMetricis.HTML"><span>Saiba Mais</span></a></p>
+            </div>
+            <div id="coluna4">
+                <h3>MIT: Global Teaching Lab</h3>
+                <p></p>
+                <p class = 'imagem'><img src="../Images_prof/MITTeachingLab.jpg" alt="" /></p>
+                <p class="texto">Criação e condução de workshop com alunos do ensino médio para aproxima-los de conceitos de programação e tecnologia</p>
+                <p class="botao-saibamais"><a href="./Prof/MITTeachingLab.HTML"><span>Saiba Mais</span></a></p>
+            </div>
+        </div>
+        
+    </body>
+    <footer id="footer-background">
+        <div id = "footer">
+            <div style='float:left; width: None;' id="menufooter">
+                <ul>
+                    <li><a href = ../pt/Home.HTML>PT</a></li>
+                    <li><a href = ../ing/Home.HTML>ENG</a></li>
+                </ul>
+            </div>
+            <div id="menufooter">
+                <ul>
+                    <li><a href = ./Indenp.HTML>Projetos Independentes</a></li>
+                    <li><a href = ./Prof.HTML>Experienias Profissionais</a></li>
+                    <li>
+                        <form id = "padding" action="./Results.HTML">
+                            <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</HTML>

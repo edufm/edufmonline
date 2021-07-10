@@ -37,67 +37,6 @@ p{
 	text-align: justify;
 }
 
-/*Imagem do Aluno*/
-
-#ImagemAluno {
-	float: left;
-	padding: 10px 0px 0px 0px;
-	border-radius: 50%
-}
-
-/* Menu */
-
-#header-background {
-	margin: 0px auto;
-	height: 100px;
-	background: #0049B1;
-	max-width: 1600px;
-	border-radius: 10%;
-}
-
-#header {
-	float: right;
-	width: 90%;
-	max-width: 1900px;
-	height: 120px;
-	margin: 0px auto;
-}
-
-#menuheader{
-	float: right;
-	width: 70%;
-	height: 70px;
-	margin-right: 5%;
-	overflow: hidden;
-}
-
-#menuheader ul {
-	float: right;
-	margin: 0;
-	padding: 30px 0px 0px 0px;
-	list-style: none;
-	line-height: normal;
-	font-family: 'Signika', sans-serif;
-	font-size: 1.5rem;
-}
-
-
-#menuheader li {
-	float: left;
-	padding: 0px;
-}
-
-#menuheader a {
-	display: inline-block;
-	margin-right: 0px;
-	padding: 10px 10px 10px 20px;
-	text-decoration: none;
-	text-align: center;
-	font-size: 16px;
-	color: white;
-	border: none;
-}
-
 /* Coluna Principal*/
 
 #imagem_Classe{
@@ -276,62 +215,6 @@ p{
 	font-weight: bold;
 }
 
-/* Footer */
-
-#footer-background {
-	margin: 0px auto;
-	height: 100px;
-	background: #0049B1;
-	max-width: 1600px;
-	border-radius: 10%;
-}
-
-#footer {
-	float: right;
-	width: 90%;
-	max-width: 1900px;
-	height: 120px;
-	margin: 0px auto;
-}
-
-#footerimg {
-	float: left;
-	padding: 20px 0px 0px 0px;
-}
-
-#menufooter {
-	float: right;
-	width: 70%;
-	height: 70px;
-	margin-right: 5%;
-	overflow: hidden;
-}
-
-#menufooter ul {
-	float: right;
-	margin: 0;
-	padding: 20px 0px 0px 0px;
-	list-style: none;
-	line-height: normal;
-	font-family: 'Signika', sans-serif;
-	font-size: 1.5rem;
-}
-
-#menufooter li {
-	float: left;
-	padding: 0px;
-}
-
-#menufooter a {
-	display: inline-block;
-	margin-right: 1px;
-	padding: 20px 10px 10px 20px;
-	text-decoration: none;
-	text-align: center;
-	font-size: 16px;
-	color: white;
-	border: none;
-}
 
 /* Botão */
 .botao-saibamais{

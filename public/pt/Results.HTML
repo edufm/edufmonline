@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+	<meta charset="utf-8">
+	<title>Resultados da Busca</title>
+	<link href="../CSS/Estilo_Index.css" rel="stylesheet" type="text/css">
+	<link href="../CSS/Estilo_Header.css" rel="stylesheet" type="text/css">
+	<link href="../CSS/Estilo_Footer.css" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	<script src="tipuesearch/tipuesearch_content.js"></script>
+	<link href="tipuesearch/tipuesearch.css" rel="stylesheet">
+	<script src="tipuesearch/tipuesearch_set.js"></script>
+	<script src="tipuesearch/tipuesearch.min.js"></script>
+
+</head>
+
+<body background="../Images/background.jpg">
+
+	<header id="header-background">
+		<div id="header" class="container">
+			<div>
+				<a href=./Home.HTML><img id="ImagemAluno" src="../Images/Picture.jpg" width="80" height="80" alt=""></a>
+			</div>
+			<div id="menuheader">
+				<ul>
+					<li><a href="javascript:window.history.go(-1)">Voltar</a></li>
+					<li><a href=./Indenp.HTML>Projetos Independentes</a></li>
+					<li><a href=./Prof.HTML>Experienias Profissionais</a></li>
+					<li>
+						<form id="padding" action="./Results.HTML">
+							<input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<h1 id="titulo">Resultados da Busca</h1>
+
+	<form action="Results.HTML">
+	</form>
+	<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; max-width: 650px;"></div>
+
+	<script>
+		$(document).ready(function () {
+			$('#tipue_search_input').tipuesearch();
+		});
+	</script>
+
+	<div>
+		<p></p>
+	</div>
+
+	<footer id="footer-background">
+		<div id="footer">
+			<div style='float:left; width: None;' id="menufooter">
+				<ul>
+					<li><a href=../pt/Home.HTML>PT</a></li>
+					<li><a href=../ing/Home.HTML>ENG</a></li>
+				</ul>
+			</div>
+			<div id="menufooter">
+				<ul>
+					<li><a href=./Indenp.HTML>Projetos Independentes</a></li>
+					<li><a href=./Prof.HTML>Experienias Profissionais</a></li>
+					<li>
+						<form id="padding" action="./Results.HTML">
+							<input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+						</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</HTML>
