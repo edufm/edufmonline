@@ -3,25 +3,26 @@ var tipuesearch = {
     "pages": [
 
         {
-            "title": "Home", "text": "Home",
+            "title": "Home", 
+            "text": "Home",
             "tags": "Eduardo Home Index",
             "url": "./Home.html"
         },
         {
             "title": "Resume",
-            "text": "Meu curriculo completo",
+            "text": "My complete resume",
             "tags": "Curriculo Experiencia Faculdade Professional Job Work",
             "url": "./Resume.HTML"
         },
         {
             "title": "Professional Experiences",
-            "text": "Historico Curriculo Professional",
+            "text": "Some of my most important Professional Experiences and Specializations",
             "tags": "Pessoal Professional Independente Projetos",
             "url": "./Prof.HTML"
         },
         {
-            "title": "Projetos Academicos",
-            "text": "Projetos realizados dentro da grade curricular",
+            "title": "Independent Projects",
+            "text": "Projecs developed during college and independently",
             "tags": "Programming Python HTML Mecanica Mecatronica Insper Projetos",
             "url": "./Indenp.HTML"
         },

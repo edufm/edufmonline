@@ -14,14 +14,14 @@ var tipuesearch = {
             "url": "./Resume.HTML"
         },
         {
-            "title": "Experienias Profissionais",
+            "title": "Experiencias Profissionais",
             "text": "Historico Curriculo Profissional",
             "tags": "Pessoal Profissional Independente Projetos",
             "url": "./Prof.HTML"
         },
         {
-            "title": "Projetos Academicos",
-            "text": "Projetos realizados dentro da grade curricular",
+            "title": "Projetos Independentes",
+            "text": "Projetos realizados na vida academica e de forma independente",
             "tags": "Programação Python HTML Mecanica Mecatronica Insper Projetos",
             "url": "./Indenp.HTML"
         },
