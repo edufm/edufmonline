@@ -64,11 +64,16 @@ var tipuesearch = {
             "url": "./Indenp/Game.HTML"
         },
 
-
+        {
+            "title": "Vector Trading - Quant Researcher",
+            "text": "Quant Researcher e Trader na Vector com foco em desenvolvimento e monitoramento de estrategias de alta frequecia na CME, EUREX e B3",
+            "tags": "Profissional Trabalho Emprego Vector Trading Investimentos Mercado Financeiro Programação Pesquisa",
+            "url": "./Prof/Vector.HTML"
+        },
         {
             "title": "Pandhora Investimentos - Quant Researcher",
             "text": "Associado na Pandhora Investimentos com foco em modelagem de mercado, alocação de portfolio, monitoramento de risco e desenvolvimento de software",
-            "tags": "Profissional Trabalho Emprego Pandhora Mercado Financeiro Programação Pesquisa",
+            "tags": "Profissional Trabalho Emprego Pandhora Investimentos Mercado Financeiro Programação Pesquisa",
             "url": "./Prof/Pandhora.HTML"
         },
         {

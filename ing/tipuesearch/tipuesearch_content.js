@@ -65,11 +65,16 @@ var tipuesearch = {
             "url": "./Indenp/Game.HTML"
         },
 
-
+        {
+            "title": "Vector Trading - Quant Researcher",
+            "text": "Quant Research and Trader at Vector working on developing and monitoring High Frequency Trading Strategies in CME, EUREX and B3",
+            "tags": "Professional Job Work Vector Trading Market Financial Programming Research",
+            "url": "./Prof/Vector.HTML"
+        },
         {
             "title": "Pandhora Investimentos - Quant Researcher",
             "text": "Associate at Pandhora Investimentos with a focus on market modeling, portfolio allocation, risk monitoring and software development",
-            "tags": "Professional Job Work Pandhora Market Financial Programming Research",
+            "tags": "Professional Job Work Pandhora Market Trading Financial Programming Research",
             "url": "./Prof/Pandhora.HTML"
         },
         {
